@@ -132,3 +132,31 @@ footer {
 button {
     background-color: rgba(221,160,221);
 }
+
+.container {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    transition: all .3 ease;
+    opacity: 0;
+    background-color: cornsilk;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.overlayeffect  {
+    width: 250px;
+    height: 250px;
+    top:0;
+    left: 0;
+    background-color: cornsilk;
+}
+
+.pic-text{
+    text-align: center;
+    font-size: x-large;
+}
