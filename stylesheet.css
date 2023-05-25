@@ -127,4 +127,8 @@ aside img {
   
 footer {
     margin-top: 10px;
-}  
+}
+
+button {
+    background-color: rgba(221,160,221);
+}
